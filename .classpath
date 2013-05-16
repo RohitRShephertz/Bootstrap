@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="E:/work/dev/SHEPHERTZ/App42_PaaS_Server/lib/commons-lang-2.2.jar"/>
+	<classpathentry kind="lib" path="E:/work/dev/SHEPHERTZ/App42_PaaS_Server/lib/ezmorph-1.0.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAINA/Downloads/ant-1.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAINA/Downloads/ant-jsch-1.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAINA/Documents/Downloads/Compressed/ant-launcher-1.8.2.jar/ant-launcher-1.8.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAINA/Documents/Downloads/Compressed/commons-collections-3.2-sources.jar/commons-collections-3.2-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAINA/Documents/Downloads/Compressed/json_org.jar/json_org.jar"/>
+	<classpathentry kind="lib" path="C:/apache-ant-1.8.2/lib/jsch-0.1.46.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

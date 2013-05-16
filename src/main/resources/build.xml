@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="PaaS" basedir="." default="deploy">
+<target name="deploy" depends="credentials">
+<sshexec host="${host}"
+    username="${name}"
+	keyfile="${user.home}/.ssh/id_rsa"
+    command="${command}"/>
+</target>
+<target name="credentials">
+<property name="host" value="${host}" />
+<property name="name" value="${name}" />
+<property name="command" value="${command}" />
+</target>
+
+</project>
