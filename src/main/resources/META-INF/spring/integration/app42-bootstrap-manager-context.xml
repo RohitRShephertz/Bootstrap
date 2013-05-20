@@ -22,7 +22,7 @@
 	<channel id="toJMS" />
 
 	<jms:outbound-channel-adapter channel="toJMS"
-		destination-name="app42.bm.request.vm" />
+		destination-name="app42.bs.paas.container" />
 
 	<beans:bean id="connectionFactory"
 		class="org.apache.activemq.ActiveMQConnectionFactory">
